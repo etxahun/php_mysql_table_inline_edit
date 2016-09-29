@@ -1,9 +1,9 @@
 <?php
 /* Database connection start */
-$servername = "172.17.0.2";
-$username = "root";
-$password = "101281";
-$dbname = "supermarket";
+$servername = "x.x.x.x";
+$username = "yyyyyyy";
+$password = "zzzzzzz";
+$dbname = "food";
 
 $conn = mysqli_connect($servername, $username, $password, $dbname) or die("Connection failed: " . mysqli_connect_error());
 $acentos = $conn->query("SET NAMES 'utf8'");
